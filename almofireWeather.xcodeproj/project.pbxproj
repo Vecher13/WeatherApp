@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E32795725043079001374D8 /* request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32795625043079001374D8 /* request.swift */; };
+		5E32795925057E74001374D8 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32795825057E74001374D8 /* Modal.swift */; };
+		5E32795F250AB1D5001374D8 /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E32795E250AB1D4001374D8 /* weathericons-regular-webfont.ttf */; };
+		5E327963250D097E001374D8 /* IconsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E327962250D097D001374D8 /* IconsKey.swift */; };
+		5E327965250E25E2001374D8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E327964250E25E2001374D8 /* LocationManager.swift */; };
+		5E87241A251D13FC006899E6 /* ForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E872418251D13FC006899E6 /* ForecastCollectionViewCell.swift */; };
+		5E87241B251D13FC006899E6 /* ForecastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E872419251D13FC006899E6 /* ForecastCollectionViewCell.xib */; };
+		5E872424251D15E4006899E6 /* exUICollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E872423251D15E4006899E6 /* exUICollection.swift */; };
 		5EBDA5E925002601001B11DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA5E825002601001B11DD /* AppDelegate.swift */; };
 		5EBDA5EB25002601001B11DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA5EA25002601001B11DD /* SceneDelegate.swift */; };
 		5EBDA5ED25002601001B11DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDA5EC25002601001B11DD /* ViewController.swift */; };
 		5EBDA5F025002601001B11DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDA5EE25002601001B11DD /* Main.storyboard */; };
 		5EBDA5F22500260A001B11DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDA5F12500260A001B11DD /* Assets.xcassets */; };
 		5EBDA5F52500260A001B11DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDA5F32500260A001B11DD /* LaunchScreen.storyboard */; };
+		5EDF813A251342A800879A3B /* Dump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF8139251342A800879A3B /* Dump.swift */; };
+		69492552999A4CC4C414A8BF /* Pods_almofireWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C847E869F0BC7C65A2A6E /* Pods_almofireWeather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420862EDA8BAF945EB9AF5D6 /* Pods-almofireWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-almofireWeather.release.xcconfig"; path = "Target Support Files/Pods-almofireWeather/Pods-almofireWeather.release.xcconfig"; sourceTree = "<group>"; };
+		5C7C847E869F0BC7C65A2A6E /* Pods_almofireWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_almofireWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E32795625043079001374D8 /* request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = request.swift; sourceTree = "<group>"; };
+		5E32795825057E74001374D8 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		5E32795E250AB1D4001374D8 /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "weathericons-regular-webfont.ttf"; path = "weather-icons-master/font/weathericons-regular-webfont.ttf"; sourceTree = SOURCE_ROOT; };
+		5E327962250D097D001374D8 /* IconsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconsKey.swift; path = "/Users/Ash/Desktop/Программирование/almofireWeather/almofireWeather/IconsKey.swift"; sourceTree = "<absolute>"; };
+		5E327964250E25E2001374D8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5E872418251D13FC006899E6 /* ForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E872419251D13FC006899E6 /* ForecastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCollectionViewCell.xib; sourceTree = "<group>"; };
+		5E872423251D15E4006899E6 /* exUICollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exUICollection.swift; sourceTree = "<group>"; };
 		5EBDA5E525002601001B11DD /* almofireWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = almofireWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBDA5E825002601001B11DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EBDA5EA25002601001B11DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,8 @@
 		5EBDA5F12500260A001B11DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EBDA5F42500260A001B11DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EBDA5F62500260A001B11DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDF8139251342A800879A3B /* Dump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dump.swift; sourceTree = "<group>"; };
+		FF5136ABE1E0E9ED4D13E545 /* Pods-almofireWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-almofireWeather.debug.xcconfig"; path = "Target Support Files/Pods-almofireWeather/Pods-almofireWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69492552999A4CC4C414A8BF /* Pods_almofireWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E32795A2509F4FB001374D8 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				5E327962250D097D001374D8 /* IconsKey.swift */,
+				5E32795825057E74001374D8 /* Modal.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		5E32795B2509F524001374D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA5EE25002601001B11DD /* Main.storyboard */,
+				5E872419251D13FC006899E6 /* ForecastCollectionViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5E32795C2509F533001374D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E327964250E25E2001374D8 /* LocationManager.swift */,
+				5E32795625043079001374D8 /* request.swift */,
+				5EBDA5EC25002601001B11DD /* ViewController.swift */,
+				5E872423251D15E4006899E6 /* exUICollection.swift */,
+				5E872418251D13FC006899E6 /* ForecastCollectionViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		5EBDA5DC25002601001B11DD = {
 			isa = PBXGroup;
 			children = (
+				5EDF8139251342A800879A3B /* Dump.swift */,
 				5EBDA5E725002601001B11DD /* almofireWeather */,
 				5EBDA5E625002601001B11DD /* Products */,
+				C583089EC400999C11470845 /* Pods */,
+				FB11ABDD58A5D3568A22E794 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +114,32 @@
 			children = (
 				5EBDA5E825002601001B11DD /* AppDelegate.swift */,
 				5EBDA5EA25002601001B11DD /* SceneDelegate.swift */,
-				5EBDA5EC25002601001B11DD /* ViewController.swift */,
-				5EBDA5EE25002601001B11DD /* Main.storyboard */,
+				5E32795C2509F533001374D8 /* Controller */,
+				5E32795A2509F4FB001374D8 /* Modal */,
+				5E32795B2509F524001374D8 /* View */,
 				5EBDA5F12500260A001B11DD /* Assets.xcassets */,
+				5E32795E250AB1D4001374D8 /* weathericons-regular-webfont.ttf */,
 				5EBDA5F32500260A001B11DD /* LaunchScreen.storyboard */,
 				5EBDA5F62500260A001B11DD /* Info.plist */,
 			);
 			path = almofireWeather;
+			sourceTree = "<group>";
+		};
+		C583089EC400999C11470845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF5136ABE1E0E9ED4D13E545 /* Pods-almofireWeather.debug.xcconfig */,
+				420862EDA8BAF945EB9AF5D6 /* Pods-almofireWeather.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB11ABDD58A5D3568A22E794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C7C847E869F0BC7C65A2A6E /* Pods_almofireWeather.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EBDA5F92500260A001B11DD /* Build configuration list for PBXNativeTarget "almofireWeather" */;
 			buildPhases = (
+				C56B7547D106A8C55FD1F4F3 /* [CP] Check Pods Manifest.lock */,
 				5EBDA5E125002601001B11DD /* Sources */,
 				5EBDA5E225002601001B11DD /* Frameworks */,
 				5EBDA5E325002601001B11DD /* Resources */,
+				B938433A21A0200FDE2797D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,7 +171,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Ash;
 				TargetAttributes = {
 					5EBDA5E425002601001B11DD = {
@@ -127,11 +204,55 @@
 			files = (
 				5EBDA5F52500260A001B11DD /* LaunchScreen.storyboard in Resources */,
 				5EBDA5F22500260A001B11DD /* Assets.xcassets in Resources */,
+				5E32795F250AB1D5001374D8 /* weathericons-regular-webfont.ttf in Resources */,
+				5E87241B251D13FC006899E6 /* ForecastCollectionViewCell.xib in Resources */,
 				5EBDA5F025002601001B11DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B938433A21A0200FDE2797D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-almofireWeather/Pods-almofireWeather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-almofireWeather/Pods-almofireWeather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-almofireWeather/Pods-almofireWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56B7547D106A8C55FD1F4F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-almofireWeather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5EBDA5E125002601001B11DD /* Sources */ = {
@@ -139,8 +260,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EBDA5ED25002601001B11DD /* ViewController.swift in Sources */,
+				5E32795925057E74001374D8 /* Modal.swift in Sources */,
+				5E32795725043079001374D8 /* request.swift in Sources */,
+				5EDF813A251342A800879A3B /* Dump.swift in Sources */,
+				5E327965250E25E2001374D8 /* LocationManager.swift in Sources */,
 				5EBDA5E925002601001B11DD /* AppDelegate.swift in Sources */,
+				5E872424251D15E4006899E6 /* exUICollection.swift in Sources */,
 				5EBDA5EB25002601001B11DD /* SceneDelegate.swift in Sources */,
+				5E87241A251D13FC006899E6 /* ForecastCollectionViewCell.swift in Sources */,
+				5E327963250D097E001374D8 /* IconsKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +320,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +381,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,14 +412,17 @@
 		};
 		5EBDA5FA2500260A001B11DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5136ABE1E0E9ED4D13E545 /* Pods-almofireWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDR7T3U5EH;
 				INFOPLIST_FILE = almofireWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Vecher13.almofireWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -299,14 +432,17 @@
 		};
 		5EBDA5FB2500260A001B11DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420862EDA8BAF945EB9AF5D6 /* Pods-almofireWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDR7T3U5EH;
 				INFOPLIST_FILE = almofireWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Vecher13.almofireWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

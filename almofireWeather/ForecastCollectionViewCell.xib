@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ForecastCollectionViewCell" customModule="almofireWeather" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UEy-So-ahx">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kmj-BU-oWj">
+                        <rect key="frame" x="10" y="38.5" width="108" height="51"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.bolt.rain" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lJG-2H-aaI">
+                                <rect key="frame" x="0.0" y="1" width="50" height="52"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="I65-YW-Di3"/>
+                                    <constraint firstAttribute="width" secondItem="lJG-2H-aaI" secondAttribute="height" multiplier="1:1" id="Iwf-iU-tDB"/>
+                                    <constraint firstAttribute="height" constant="50" id="yw6-En-dxG"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Exn-La-qjf">
+                                <rect key="frame" x="58" y="0.0" width="50" height="51"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aV-iB-MpN">
+                                        <rect key="frame" x="11.5" y="0.0" width="27" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hr-ab-MKj">
+                                        <rect key="frame" x="18" y="25.5" width="14.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q89-wU-bp0">
+                        <rect key="frame" x="47" y="5" width="34" height="15.5"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4Z-nf-MqQ">
+                        <rect key="frame" x="10" y="111" width="108" height="12"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kmj-BU-oWj" secondAttribute="trailing" constant="10" id="1e2-a0-XQR"/>
+                <constraint firstAttribute="bottom" secondItem="UEy-So-ahx" secondAttribute="bottom" id="4ir-Cn-YOI"/>
+                <constraint firstAttribute="trailing" secondItem="UEy-So-ahx" secondAttribute="trailing" id="72y-dd-O4h"/>
+                <constraint firstItem="T4Z-nf-MqQ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="IP3-Kq-Hty"/>
+                <constraint firstAttribute="trailing" secondItem="T4Z-nf-MqQ" secondAttribute="trailing" constant="10" id="Smr-my-BxU"/>
+                <constraint firstItem="Q89-wU-bp0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="TSG-ZZ-KrD"/>
+                <constraint firstItem="kmj-BU-oWj" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Uq7-kI-EIO"/>
+                <constraint firstItem="T4Z-nf-MqQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="YOd-Ta-ixs"/>
+                <constraint firstAttribute="bottom" secondItem="T4Z-nf-MqQ" secondAttribute="bottom" constant="5" id="dxu-49-MKw"/>
+                <constraint firstItem="Q89-wU-bp0" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="e7O-gv-3rb"/>
+                <constraint firstItem="UEy-So-ahx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="itm-U1-1D5"/>
+                <constraint firstItem="kmj-BU-oWj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="jBh-Jz-mAs"/>
+                <constraint firstItem="kmj-BU-oWj" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="xQG-zN-l2a"/>
+                <constraint firstItem="UEy-So-ahx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yJd-cn-JEH"/>
+            </constraints>
+            <size key="customSize" width="128" height="128"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="20"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="dataLabel" destination="Q89-wU-bp0" id="vFU-ow-4UC"/>
+                <outlet property="dayTempLabel" destination="0aV-iB-MpN" id="aLS-wk-OPK"/>
+                <outlet property="descriptionLabel" destination="T4Z-nf-MqQ" id="67x-6P-CUo"/>
+                <outlet property="imageCondition" destination="lJG-2H-aaI" id="X6q-D0-hfu"/>
+                <outlet property="nightTempLabel" destination="6hr-ab-MKj" id="VMa-IF-oZE"/>
+                <outlet property="view" destination="UEy-So-ahx" id="73n-AR-uhy"/>
+            </connections>
+            <point key="canvasLocation" x="194.20289855072465" y="147.32142857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cloud.bolt.rain" catalog="system" width="128" height="128"/>
+    </resources>
+</document>
