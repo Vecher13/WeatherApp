@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5E32795725043079001374D8 /* request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32795625043079001374D8 /* request.swift */; };
-		5E32795925057E74001374D8 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E32795825057E74001374D8 /* Modal.swift */; };
-		5E32795F250AB1D5001374D8 /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E32795E250AB1D4001374D8 /* weathericons-regular-webfont.ttf */; };
 		5E327963250D097E001374D8 /* IconsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E327962250D097D001374D8 /* IconsKey.swift */; };
 		5E327965250E25E2001374D8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E327964250E25E2001374D8 /* LocationManager.swift */; };
+		5E3991692565C52F00F9A6E8 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3991682565C52F00F9A6E8 /* Modal.swift */; };
 		5E87241A251D13FC006899E6 /* ForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E872418251D13FC006899E6 /* ForecastCollectionViewCell.swift */; };
 		5E87241B251D13FC006899E6 /* ForecastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E872419251D13FC006899E6 /* ForecastCollectionViewCell.xib */; };
 		5E872424251D15E4006899E6 /* exUICollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E872423251D15E4006899E6 /* exUICollection.swift */; };
@@ -29,10 +28,9 @@
 		420862EDA8BAF945EB9AF5D6 /* Pods-almofireWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-almofireWeather.release.xcconfig"; path = "Target Support Files/Pods-almofireWeather/Pods-almofireWeather.release.xcconfig"; sourceTree = "<group>"; };
 		5C7C847E869F0BC7C65A2A6E /* Pods_almofireWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_almofireWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E32795625043079001374D8 /* request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = request.swift; sourceTree = "<group>"; };
-		5E32795825057E74001374D8 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
-		5E32795E250AB1D4001374D8 /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "weathericons-regular-webfont.ttf"; path = "weather-icons-master/font/weathericons-regular-webfont.ttf"; sourceTree = SOURCE_ROOT; };
 		5E327962250D097D001374D8 /* IconsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IconsKey.swift; path = "/Users/Ash/Desktop/Программирование/almofireWeather/almofireWeather/IconsKey.swift"; sourceTree = "<absolute>"; };
 		5E327964250E25E2001374D8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5E3991682565C52F00F9A6E8 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		5E872418251D13FC006899E6 /* ForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCollectionViewCell.swift; sourceTree = "<group>"; };
 		5E872419251D13FC006899E6 /* ForecastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCollectionViewCell.xib; sourceTree = "<group>"; };
 		5E872423251D15E4006899E6 /* exUICollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exUICollection.swift; sourceTree = "<group>"; };
@@ -60,25 +58,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E32795A2509F4FB001374D8 /* Modal */ = {
-			isa = PBXGroup;
-			children = (
-				5E327962250D097D001374D8 /* IconsKey.swift */,
-				5E32795825057E74001374D8 /* Modal.swift */,
-			);
-			name = Modal;
-			sourceTree = "<group>";
-		};
-		5E32795B2509F524001374D8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				5EBDA5EE25002601001B11DD /* Main.storyboard */,
-				5E872419251D13FC006899E6 /* ForecastCollectionViewCell.xib */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		5E32795C2509F533001374D8 /* Controller */ = {
+		5E39915C2565C0F400F9A6E8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				5E327964250E25E2001374D8 /* LocationManager.swift */,
@@ -87,7 +67,25 @@
 				5E872423251D15E4006899E6 /* exUICollection.swift */,
 				5E872418251D13FC006899E6 /* ForecastCollectionViewCell.swift */,
 			);
-			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E3991652565C3DF00F9A6E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDA5EE25002601001B11DD /* Main.storyboard */,
+				5E872419251D13FC006899E6 /* ForecastCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E3991672565C4AF00F9A6E8 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				5E327962250D097D001374D8 /* IconsKey.swift */,
+				5E3991682565C52F00F9A6E8 /* Modal.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 		5EBDA5DC25002601001B11DD = {
@@ -112,13 +110,12 @@
 		5EBDA5E725002601001B11DD /* almofireWeather */ = {
 			isa = PBXGroup;
 			children = (
+				5E3991672565C4AF00F9A6E8 /* Modal */,
+				5E3991652565C3DF00F9A6E8 /* View */,
+				5E39915C2565C0F400F9A6E8 /* Controller */,
 				5EBDA5E825002601001B11DD /* AppDelegate.swift */,
 				5EBDA5EA25002601001B11DD /* SceneDelegate.swift */,
-				5E32795C2509F533001374D8 /* Controller */,
-				5E32795A2509F4FB001374D8 /* Modal */,
-				5E32795B2509F524001374D8 /* View */,
 				5EBDA5F12500260A001B11DD /* Assets.xcassets */,
-				5E32795E250AB1D4001374D8 /* weathericons-regular-webfont.ttf */,
 				5EBDA5F32500260A001B11DD /* LaunchScreen.storyboard */,
 				5EBDA5F62500260A001B11DD /* Info.plist */,
 			);
@@ -204,7 +201,6 @@
 			files = (
 				5EBDA5F52500260A001B11DD /* LaunchScreen.storyboard in Resources */,
 				5EBDA5F22500260A001B11DD /* Assets.xcassets in Resources */,
-				5E32795F250AB1D5001374D8 /* weathericons-regular-webfont.ttf in Resources */,
 				5E87241B251D13FC006899E6 /* ForecastCollectionViewCell.xib in Resources */,
 				5EBDA5F025002601001B11DD /* Main.storyboard in Resources */,
 			);
@@ -260,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EBDA5ED25002601001B11DD /* ViewController.swift in Sources */,
-				5E32795925057E74001374D8 /* Modal.swift in Sources */,
+				5E3991692565C52F00F9A6E8 /* Modal.swift in Sources */,
 				5E32795725043079001374D8 /* request.swift in Sources */,
 				5EDF813A251342A800879A3B /* Dump.swift in Sources */,
 				5E327965250E25E2001374D8 /* LocationManager.swift in Sources */,
