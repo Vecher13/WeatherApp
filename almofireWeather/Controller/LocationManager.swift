@@ -83,7 +83,7 @@ extension ViewController{
     
    
 
-    locationManager?.stopUpdatingLocation()
+    self.locationManager?.stopUpdatingLocation()
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         print("Error \(error)")
     

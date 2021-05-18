@@ -20,7 +20,6 @@
 		5EBDA5F025002601001B11DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDA5EE25002601001B11DD /* Main.storyboard */; };
 		5EBDA5F22500260A001B11DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDA5F12500260A001B11DD /* Assets.xcassets */; };
 		5EBDA5F52500260A001B11DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDA5F32500260A001B11DD /* LaunchScreen.storyboard */; };
-		5EDF813A251342A800879A3B /* Dump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF8139251342A800879A3B /* Dump.swift */; };
 		69492552999A4CC4C414A8BF /* Pods_almofireWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C847E869F0BC7C65A2A6E /* Pods_almofireWeather.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		5EBDA5F12500260A001B11DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EBDA5F42500260A001B11DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EBDA5F62500260A001B11DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EDF8139251342A800879A3B /* Dump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dump.swift; sourceTree = "<group>"; };
 		FF5136ABE1E0E9ED4D13E545 /* Pods-almofireWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-almofireWeather.debug.xcconfig"; path = "Target Support Files/Pods-almofireWeather/Pods-almofireWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +89,6 @@
 		5EBDA5DC25002601001B11DD = {
 			isa = PBXGroup;
 			children = (
-				5EDF8139251342A800879A3B /* Dump.swift */,
 				5EBDA5E725002601001B11DD /* almofireWeather */,
 				5EBDA5E625002601001B11DD /* Products */,
 				C583089EC400999C11470845 /* Pods */,
@@ -258,7 +255,6 @@
 				5EBDA5ED25002601001B11DD /* ViewController.swift in Sources */,
 				5E3991692565C52F00F9A6E8 /* Modal.swift in Sources */,
 				5E32795725043079001374D8 /* request.swift in Sources */,
-				5EDF813A251342A800879A3B /* Dump.swift in Sources */,
 				5E327965250E25E2001374D8 /* LocationManager.swift in Sources */,
 				5EBDA5E925002601001B11DD /* AppDelegate.swift in Sources */,
 				5E872424251D15E4006899E6 /* exUICollection.swift in Sources */,
